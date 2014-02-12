@@ -22,7 +22,7 @@ prefix.getVendor();
 Will return one of the following:
 * `false` indicates that the browser doesn't support transitions
 * `Ms` means trusty old - or rather new in this case - IE
-* `O` means you're sort of an hipster using Opera
+* `O` means you're sort of a hipster using Opera
 * `Moz` means a browser actually implementing standards - Firefox
 * `WebKit` - so either your a Mac fanboy on Safari or your getting spied on by Google using Chrome
 * `Khtml` - Konqueror - you probably smell funky
@@ -39,7 +39,7 @@ This will return the prefixed form for the property, ie `WebkitTransform`
 
 #### Get the transition callback name
 
-Due too noone following the specifications, except for - drumroll - Firefox, for working with transition callbacks you can use the helper `getTransitionCallback`.
+Due to no-one following the specifications, except for - drumroll - Firefox, for working with transition callbacks you can use the helper `getTransitionCallback`.
 
 ```javascript
 var transitionCallback = prefix.getTransitionCallback();
